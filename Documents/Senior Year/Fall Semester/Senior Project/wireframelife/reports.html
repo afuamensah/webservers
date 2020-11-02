@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<title>Herdr - Admin</title>
+	</head>
+    <body>
+		<header class="border-right">
+			<a href="login.html" class="logout">Log Out</a>
+			<br>
+			<br>
+			<p class="name"><b>Afua Mensah</b></p>
+			<img src="logo.png">
+			<ul class="list-group list-group-flush">
+				<li><a href="dashboard.html" class="list-group-item list-group-item-action ">Dashboard</a></li>
+				<li><a href="matches.html" class="list-group-item list-group-item-action ">Matches Center</a></li>
+				<li><a href="reports.html" class="list-group-item list-group-item-action">Reports Center</a></li>
+				<li><a href="help.html" class="list-group-item list-group-item-action">Help Center</a></li>
+			</ul>
+		</header>
+		<main>
+		<div class="container">
+			<div class="search border-bottom">
+				<form>
+					<input class="form-control searchbar" type="search" placeholder="Search by Name or L#..." aria-label="Search">
+					<button class="search" type="submit"><img src="search.png" class="s-icon"></button>
+				</form>
+            </div>
+            <h1>Reports Center (2020-2021)</h1>
+			<div class="container border dash">
+					<div class="new-match">
+						<b>10/13/2020 	Profile reported: Lou Bison</b><div class="action"><a href="reports-2.html" class="btn btn-dark unread">View Details</a></div>
+					</div>
+					<hr>
+					<div class="new-match">
+						<b>10/05/2020 	Profile reported: Steve Nordstrom</b><div class="action"><button class="btn btn-dark unread">View Details</button></div>
+					</div>
+					<hr>
+					<div class="new-match">
+						<b>10/01/2020 	Profile reported: John Doe</b><div class="action"><button class="btn btn-dark unread">View Details</button></div>
+					</div>
+					<hr>
+                    <div class="new-match">
+						9/23/2020	 Profile reported: Jane Doe<div class="action"><button class="btn btn-light read">View Details</button></div>
+					</div>
+			</div>
+			<h6>Past Reports:</h6>
+            <ul>
+                <li><a href="#">2019-2020</a></li>
+                <li><a href="#">2018-2019</a></li>
+                <li><a href="#">2017-2018</a></li>
+            </ul>
+		</div>
+	</main>
+	<footer class="border-top">
+		<p>Copyright &copy; BANZ</p>
+	</footer>
+	</body>
+</html>
