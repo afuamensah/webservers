@@ -1,6 +1,6 @@
 # Animal Appreciation
 
-This is my recurring assignment for the Web Server Technologies course. I created a website showing appreciation for animals. I used skills from Web Development 1 and Web Development 2 to initially create this website and then used what I learned during the semester every week to build upon the website. This includes an admin side of the site with a log in and capabilities to add, modify, or delete store items from the website database.
+This is my recurring assignment for the Web Server Technologies course. I created a website showing appreciation for animals. I used skills from Web Development 1 and Web Development 2 to initially create this website and then used what I learned during the semester every week to build upon the website. This includes an admin side of the site with a log in and capabilities to search through, add, modify (price), or delete store items from the website database.
 
 #### header.php
 Notes css stylesheets, title, and jQuery script and displays the header and navigation links. Used for most pages on the website.
