@@ -12,7 +12,7 @@
     <ul>
         <li><a href=\"search.php\">Search Merchandise</a></li>
         <li><a href=\"addmerch.php\">Add Merchandise</a></li>
-        <li><a href=\"price.php\">Change Price of Merch</a></li>
+        <li><a href=\"updateprice.php\">Change Price of Merch</a></li>
         <li><a href=\"deletemerch.php\">Delete Merchandise</a></li>
         <li><a href=\"messages.php\">Create XML File of Messages</a></li>
     </ul>
