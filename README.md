@@ -41,3 +41,10 @@ Updates the price of merchandise in the database.
 #### search.php, results.php
 Searches merchandise that is in the database and displays the results.
 
+#### dbconnect.php
+Area to put your database information, including hostname, username, password, and database name. All of these are required in order for the connection to work. Default is set to localhost with 'root' as username and an empty value as password.
+
+***This web app needs a web server (such as Apache or Nginx) and a MySQL database with the same table and attribute names in order for it to work.***
+
+- I use the XAMPPP stack: https://www.apachefriends.org/index.html
+
