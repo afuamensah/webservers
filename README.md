@@ -48,3 +48,4 @@ Area to put your database information, including hostname, username, password, a
 
 - I use the XAMPPP stack: https://www.apachefriends.org/index.html
 
+Final Grade: **97%**
